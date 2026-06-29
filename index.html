@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A luxury birthday website for Isha Ishrat." />
+  <meta name="theme-color" content="#120721" />
+  <title>Happy Birthday Isha Ishrat</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="effects-off">
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <canvas id="webgl-background" aria-hidden="true"></canvas>
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
+  <div id="cursorGlow" class="cursor-glow" aria-hidden="true"></div>
+
+  <div id="preloader" class="preloader" role="status" aria-live="polite">
+    <div class="preloader-orb"></div>
+    <p class="eyebrow">Preparing a magical birthday moment</p>
+    <h1>Isha Ishrat</h1>
+    <div class="progress-track"><span id="progressBar"></span></div>
+    <p id="progressText" class="progress-text">0%</p>
+  </div>
+
+  <main class="app-shell">
+    <section id="countdownSection" class="countdown-section glass-panel visible" aria-label="Birthday countdown">
+      <div class="brand-mark">✦</div>
+      <p class="eyebrow">A premium birthday wish unlocks in</p>
+      <h1 class="countdown-title">For Isha Ishrat</h1>
+      <p class="countdown-subtitle">30 June 2026 ·</p>
+
+      <div class="countdown-grid" aria-live="polite">
+        <article class="time-card"><span id="days">00</span><small>Days</small></article>
+        <article class="time-card"><span id="hours">00</span><small>Hours</small></article>
+        <article class="time-card"><span id="minutes">00</span><small>Minutes</small></article>
+        <article class="time-card"><span id="seconds">00</span><small>Seconds</small></article>
+        <article class="time-card wide"><span id="milliseconds">000</span><small>Milliseconds</small></article>
+      </div>
+
+      <div class="countdown-hint">
+        <span class="pulse-dot"></span>
+        Live countdown      </div>
+    </section>
+
+    <section id="momentSection" class="moment-section hidden" aria-label="Birthday surprise">
+      
+
+      <header class="hero glass-panel reveal-item">
+           <h1 class="birthday-heading">Happy Birthday <span>Isha Ishrat!</span></h1>
+        <p class="hero-copy">Tonight the stars, candles, fireworks, memories, and every glowing little detail are here to celebrate you.</p>
+      </header>
+<div class="floating-layer" aria-hidden="true">
+    <span class="float-heart h1">♥</span>
+    <span class="float-heart h2">♥</span>
+    <span class="float-heart h3">♥</span>
+    <span class="butterfly b1">🦋</span>
+    <span class="butterfly b2">🦋</span>
+    <span class="butterfly b3">🦋</span>
+    <span class="butterfly b1">🐈</span>
+    <span class="butterfly b2">🐈</span>
+    <span class="butterfly b3">🐈</span>
+
+  </div>
+
+
+      <section id="birthdayLetter" class="letter-section glass-panel reveal-item" aria-label="Personal birthday letter">
+        <div class="section-heading">
+          <p class="eyebrow">A letter for you</p>
+          
+        </div>
+        <div class="letter-paper">
+          <p id="typewriterText" class="typewriter-text"></p>
+          <span class="type-caret" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="final-surprise-section glass-panel reveal-item" aria-label="Final surprise gift box">
+        <div class="section-heading">
+          <p class="eyebrow"></p>
+          <h2>A little box of wishes</h2>
+          
+        </div>
+
+        <div class="css-gift-wrap" aria-hidden="true">
+          <div id="cssGift" class="css-gift">
+            <div class="gift-lid"><span></span></div>
+            <div class="gift-box"><span></span></div>
+            <div class="gift-ribbon-v"></div>
+            <div class="gift-ribbon-h"></div>
+            <div class="gift-glow"></div>
+          </div>
+        </div>
+
+        <div id="finalMessage" class="final-message">
+          May this year bring you peace, happiness, success, health, love, and countless joyful memories. You deserve every beautiful thing life has to offer. 🐈 😺   </div>
+      </section>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div class="floating-layer" aria-hidden="true">
+    <span class="float-heart h1">♥</span>
+    <span class="float-heart h2">♥</span>
+    <span class="float-heart h3">♥</span>
+    <span class="butterfly b1">🦋</span>
+    <span class="butterfly b2">🦋</span>
+    <span class="butterfly b3">🦋</span>
+    <span class="butterfly b1">🐈</span>
+    <span class="butterfly b2">🐈</span>
+    <span class="butterfly b3">🐈</span>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="effects/canvas-effects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
