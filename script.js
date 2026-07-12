@@ -3,7 +3,7 @@
 
   const CONFIG = {
     recipientName: 'Isha Ishrat',
-    targetPakistanTimeLabel: '30 June 2026 · 12:00:01 AM Pakistan Standard Time',
+    targetPakistanTimeLabel: '30 June 2027 · 12:00:01 AM Pakistan Standard Time',
     targetUtcTimestamp: Date.UTC(2026, 5, 29, 19, 0, 1, 0),
     birthdayLetter: `Dear Isha,
 
